@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  background-color: hsl(45, 44%, 81%);
+  margin: 0;
+  padding: 2rem;
+}
+
+.ueberschrift {
+  text-align: center;
+  font-weight: 900;
+}
+
+.counter {
+  text-align: center;
+  font-weight: 700;
+}
+
+.lade-btn {
+  margin-bottom: 2rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 20px;
+  background: none;
+  border: 2px solid black;
+}
+
+.lade-btn:hover {
+  transform: scale(1.05);
+}
+
+.lade-btn:active {
+  transform: scale(1.02);
+}
+
+.galerie {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
